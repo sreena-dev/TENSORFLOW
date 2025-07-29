@@ -124,3 +124,4 @@ plt.ylim(-3, 3) # Consistent limits
 plt.tight_layout()
 plt.suptitle('Scatter Plot of Two Features Before and After Standardization', y=1.02, fontsize=16)
 plt.show()
+# simple visualization
