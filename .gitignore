@@ -1,0 +1,14 @@
+cnn_cifar10.py
+sympy_derivatives_cal.py
+tempCodeRunnerFile.py
+
+
+/tf/
+
+
+__pycache__/            #: Ignores the folders where Python stores compiled bytecode.
+*.pyc                   #: Ignores individual compiled bytecode files.
+.DS_Store, Thumbs.db    #: Common OS-generated files that clutter repositories.
+
+
+TENSORFLOW/.vscode/                #: Ignores the entire Visual Studio Code configuration folder. If you have specific VS Code settings or launch configurations you do want to share with collaborators, you might modify this to .vscode/* and then add !.vscode/settings.json or !.vscode/launch.json on new lines to re-include specific files.
